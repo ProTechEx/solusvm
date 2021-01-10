@@ -5,4 +5,4 @@ wget https://raw.githubusercontent.com/hulisang/solusvm/main/solusvm.sh && chmod
 wget https://raw.githubusercontent.com/hulisang/solusvm/main/addswap.sh && chmod +x addswap.sh && bash addswap.sh 512
 
 
-wget https://raw.githubusercontent.com/hulisang/solusvm/main/addswap.sh && chmod +x addswap.sh && sed -i "2i/root/addswap.sh 512" /etc/rc.local
+wget https://raw.githubusercontent.com/hulisang/solusvm/main/addswap.sh && chmod +x addswap.sh && sed -i "2i/root/addswap.sh 512" /etc/rc.local && chmod +x /etc/rc.local
